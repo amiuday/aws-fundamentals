@@ -8,9 +8,9 @@ Log in to AWS Console → EC2 → Launch Instance.
 
 Name: day2-ec2.
 
-AMI: Amazon Linux 2023 kernel-6.1 AMI (free tier eligible).
+AMI: Amazon Linux 2023 kernel-6.1 AMI (free tier eligible). (eu-north-1)
 
-Instance type: t3.micro.
+Instance type: t3.micro
 
 Key pair: Create new or use existing (download .pem file). Name: day2-key-pair
 
