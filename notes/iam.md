@@ -1,3 +1,4 @@
+Day 1 (Sep 13)
 ------------------
 IAM User
 ------------------
@@ -6,7 +7,6 @@ Represents an individual (person, application, or service) that needs access to 
 Each user has credentials: username, password (for console), access keys (for CLI/SDK).
 
 Best practice: Do not use the root account for daily tasks.
-
 ------------------
 IAM Group
 ------------------
@@ -15,7 +15,6 @@ A collection of IAM users.
 Groups make it easy to assign the same permissions to multiple users.
 
 Example: Developers, Admins, S3-ReadOnly.
-
 ------------------
 IAM Policy
 ------------------
@@ -28,7 +27,7 @@ Uses Effect (Allow/Deny), Action (what can be done), and Resource (on which AWS 
 
 
 
-
+Sep 13
 
 --------------------------------------------------------------------------------------------
                                     GIT
@@ -46,3 +45,14 @@ git remote add origin <url> → Link local repo to GitHub repository.
 
 git push -u origin main → Upload commits to GitHub main branch.
 
+-------------------------------------------------------------------------------------------
+Sep 14
+-------------------------------------------------------------------------------------------
+Step 1: Clear old GitHub credentials
+
+git credential-manager-core erase
+
+If that doesn’t work, manually remove saved credentials:
+
+On Windows: Open Control Panel → Credential Manager → Windows Credentials.
+Look for git:https://github.com and remove it.
