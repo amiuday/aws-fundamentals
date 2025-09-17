@@ -23,7 +23,6 @@ A JSON document that defines permissions.
 Attached to users, groups, or roles.
 
 Uses Effect (Allow/Deny), Action (what can be done), and Resource (on which AWS resource).
-
 -------------------------------------------------------------------------------------------
 Day 4 Sep 16
 -------------------------------------------------------------------------------------------
