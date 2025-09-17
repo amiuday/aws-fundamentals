@@ -49,3 +49,22 @@ Add collaborator’s GitHub username/email.
 
 They will receive an invite. Once accepted, they can push/pull.
 
+-------------------------------------------------------------------------------------------
+Day 5 Sep 17
+-------------------------------------------------------------------------------------------
+
+GitHub: Issues & Wiki
+
+Issues:
+
+Used to track tasks, bugs, or enhancements.
+
+Can assign, add labels, and close when completed.
+
+Wiki:
+
+Repository section for documentation.
+
+Supports markdown.
+
+Good for step-by-step setup guides.
