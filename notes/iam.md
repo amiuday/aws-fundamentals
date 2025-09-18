@@ -50,6 +50,24 @@ Here’s the final JSON (no Principal):
   ]
 }
 
+Make sure he also has the below permissons. Please allow if he hasn't
+
+✅ Fix for console access
+
+If you want the user to also see and click into the bucket in the AWS Console, add one more statement:
+
+{
+  "Sid": "AllowListBuckets",
+  "Effect": "Allow",
+  "Action": "s3:ListAllMyBuckets",
+  "Resource": "*"
+}
+
+
+arn:aws:s3:::* - you can also pass the Resource like this
+
+This allows the S3 console to show the bucket list, but doesn’t give object-level access beyond what you already allowed.
+
 Q. If I only give "arn:aws:s3:::my-daily-logs-bucket/*" in the Resource will it be applied to the folder and sub folders?
 
 🔹 Steps to Apply
