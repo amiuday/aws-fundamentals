@@ -74,7 +74,6 @@ tmpfs              91M     0   91M   0% /run/user/1000
 
 7. (Optional) Auto-Mount on Reboot
 Find UUID:
-sudo blkid /dev/xvdf
 [ec2-user@ip-172-31-17-70 ~]$ sudo blkid /dev/nvme1n1
 /dev/nvme1n1: UUID="b19b3fec-16f8-4130-a6ed-5ed465a521a0" BLOCK_SIZE="4096" TYPE="ext4"
 Edit fstab:
