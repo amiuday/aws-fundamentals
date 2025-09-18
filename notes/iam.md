@@ -50,6 +50,8 @@ Here’s the final JSON (no Principal):
   ]
 }
 
+Q. If I only give "arn:aws:s3:::my-daily-logs-bucket/*" in the Resource will it be applied to the folder and sub folders?
+
 🔹 Steps to Apply
 
 Go to IAM → Users → Teammate → Permissions.
